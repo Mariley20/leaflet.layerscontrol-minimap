@@ -204,6 +204,6 @@ L.Control.Layers.Minimap = L.Control.Layers.extend({
     }
 });
 
-module.exports ControlLayersMinimap = function (baseLayers, overlays, options) {
+module.exports = ControlLayersMinimap = function (baseLayers, overlays, options) {
     return new L.Control.Layers.Minimap(baseLayers, overlays, options);
 };
